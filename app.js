@@ -26,10 +26,6 @@ app.use(
   morgan(":method :url :status :res[content-length] - :response-time ms :body")
 );
 
-app.get("/", (req, res) => {
-  res.send("fuck off");
-});
-
 app.get("/api/v1/information", (req, res) => {
   const token = req.headers.authorization.split(" ")[1];
   if (!token) return res.status(401).send("Access Token Required");

@@ -28,4 +28,4 @@ Github: [@Yan Sidorenko](https://github.com/YanSido)
 
 Project Link: [Sido's JWT-Authenticator](https://github.com/YanSido/JWT-Authentication/tree/development-branch)
 
-Heroku: [https://cryptic-bastion-17430.herokuapp.com/](https://cryptic-bastion-17430.herokuapp.com/)
+Heroku: [https://sido-jwt-authenticator.herokuapp.com/](https://sido-jwt-authenticator.herokuapp.com/)
