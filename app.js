@@ -155,6 +155,15 @@ app.options("/", (req, res) => {
 
 app.use(errorHandler);
 
+app.use("/", express.static(`./client/build`));
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/client/public/index.html");
+});
+
 app.use("*", function (req, res) {
   res.send("unknown endpoint", 404);
 });

@@ -26,6 +26,6 @@ Contributions are what make the open source community such an amazing place to l
 
 Github: [@Yan Sidorenko](https://github.com/YanSido)
 
-Project Link: [Sido's JWT-Authenticator](https://github.com/YanSido/cyber4s-final1-boilerplate-url-shortener/tree/YanSido-branch)
+Project Link: [Sido's JWT-Authenticator](https://github.com/YanSido/JWT-Authentication/tree/development-branch)
 
 Heroku: [https://cryptic-bastion-17430.herokuapp.com/](https://cryptic-bastion-17430.herokuapp.com/)
